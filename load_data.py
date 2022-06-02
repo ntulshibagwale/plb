@@ -82,7 +82,7 @@ def load_model(pth_path, model_num, feature_dim, num_classes=5):
 
 
 def load_PLB_dataset_from_github(
-        url='https://raw.githubusercontent.com/ntulshibagwale/plb_dataset_supervised_learning/main/Data/220426_PLB_data.json'):
+        url='https://raw.githubusercontent.com/ntulshibagwale/ae-plb-ml/master/Data/220426_PLB_data.json'):
     """
     
     Given url, loads PLB dataset (json file) from public github repository.
@@ -91,8 +91,8 @@ def load_PLB_dataset_from_github(
     ----------
     url : string, optional
         URL to json file on github repository. Default is 
-        'https://raw.githubusercontent.com/ntulshibagwale/plb_dataset_supervise
-        d_learning/main/Data/220426_PLB_data.json'.
+        'https://raw.githubusercontent.com/ntulshibagwale/ae-plb-ml/master/Data
+        /220426_PLB_data.json'.
 
     Returns
     -------
