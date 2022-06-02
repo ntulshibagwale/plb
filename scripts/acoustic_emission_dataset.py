@@ -13,10 +13,10 @@ Updated: 2022-06-02
 
 import torch
 from torch.utils.data import Dataset
-from load_data import load_PLB_dataset_from_github
+from .load_data import load_PLB_dataset_from_github
 from torch import tensor
-from ae_measure2 import wave2vec
-from ae_measure2 import fft
+from .ae_measure2 import wave2vec
+from .ae_measure2 import fft
 import numpy as np
 
 class AcousticEmissionDataset(Dataset):

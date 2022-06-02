@@ -8,9 +8,9 @@ Updated: 2022-06-02
 
 """
 import os
-from ae_functions import get_folder_pickle_files
+from .ae_functions import get_folder_pickle_files
 import pickle
-from model_architectures import NeuralNetwork_01, NeuralNetwork_02
+from .model_architectures import NeuralNetwork_01, NeuralNetwork_02
 import torch
 import re, json, requests
 import numpy as np
